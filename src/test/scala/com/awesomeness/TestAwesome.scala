@@ -11,5 +11,6 @@ class TestAwesome extends JUnitSuite {
     assertEquals(1, awesome square 1)
     assertEquals(6, awesome multiple (2,3))
     assertEquals(-1, awesome neg 1)
+    assertEquals(1, awesome abs 1)
   }
 }

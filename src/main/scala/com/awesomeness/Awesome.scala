@@ -16,6 +16,13 @@ class Awesomeness {
   def neg(x: Int): Int = {
     -x
   }
+  def abs(x: Int): Int = {
+    if (x >= 0) {
+      x
+    } else {
+      -x
+    }
+  }
 }
 
 
