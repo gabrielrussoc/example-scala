@@ -13,6 +13,9 @@ class Awesomeness {
   def cube(x: Int): Int = {
     x*x*x
   }
+  def neg(x: Int): Int = {
+    -x
+  }
 }
 
 
